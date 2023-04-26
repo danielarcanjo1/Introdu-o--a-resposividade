@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+   max-width: 33.0rem;
+    margin: 0 auto;
+}
+
+body{
+    background: #ECE9FD;
+    
+}
+
+h2{
+    font-family: 'Epilogue',sans-serif;
+
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2rem;
+
+
+    letter-spacing: 0.1875rem;
+    text-transform: uppercase;
+
+    margin-bottom: 1.0625rem;
+
+    color: #7158EF;
+
+}
+
+h1{
+    font-family: 'Epilogue',sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2.5rem;
+    line-height: 3rem;
+
+    color: #2f1b5f;
+
+    margin-bottom: 1.0625rem;
+}
+
+p{
+    font-family: 'Epilogue',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2rem;
+
+    color: rgba(10, 0, 57, 0.64);
+
+    margin-bottom: 1.875rem;
+}
+
+a{
+    text-decoration: none; 
+}
+a:hover{
+    font-weight: bold;
+}
+ul{
+    list-style: none;
+    
+    margin-top: 4.5rem;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    font-family: 'Epilogue',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    
+    gap: 1.25rem;
+    
+    color: #090039;
+    
+    width: 16.0625rem;
+    margin-bottom: 2rem;
+}
+
+li span{
+    font-family: 'Epilogue',sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 4.5rem;
+    line-height: 5rem;
+
+    letter-spacing: -0.125rem;
+
+    color: #090039;
+}
+
+@media (min-width: 43.75rem){
+    body {
+    padding: 3.75rem 3.75rem 3.75rem 3.75rem;
+    }
+    main{
+        display: flex;
+        gap:10rem;
+        max-width: 1020px;
+    }
+    main > div{
+        max-width: 484px;
+    }
+    ul{
+        margin-left: 7.5rem;
+    }
+  }
